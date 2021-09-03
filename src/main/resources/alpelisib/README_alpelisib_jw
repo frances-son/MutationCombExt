@@ -1,0 +1,24 @@
+<원본 데이터 관련 안내사항>
+
+작성자 : s.wisdom.one@gmail.com
+작성일 : 2021.08.31
+
+* 데이터 재배포 가능 여부가 확실하지 않아 원본 파일은 첨부하지 않았습니다.
+
+* 해당 프로젝트에 테스트용으로 사용된 데이터는 cBioPortal에서 다운받은 무료 배포 파일입니다.
+다운로드 일시 : 2020년 7월
+프로젝트 명 : Breast Cancer (MSK, Nature Cancer 2020)
+URL : https://www.cbioportal.org/study/summary?id=breast_alpelisib_2020
+
+* 사용된 파일 명과 데이터 형식은 다음과 같습니다. 구분자로 탭(\t)을 사용하는 tsv 형식의 txt 파일입니다. 해당 프로젝트에서는 아래 데이터 중 일부만을 활용하였습니다다.
+- data_clinical_sample.txt
+SAMPLE_ID	PATIENT_ID	SEQUENCING_PLATFORM	SAMPLE_CLASS	SAMPLE_COLLECTION_TIMEPOINT	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	PIK3CA_PRE_TREATMENT_TUMOR	PIK3CA_MUT_PRE_TREATMENT_TUMOR
+
+- data_CNA.txt
+Hugo_Symbol	sample_1	sample_2
+ABL1	2	0
+
+- data_mutations_extended.txt
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_Position	End_Position	Strand	Consequence	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	dbSNP_RS	dbSNP_Val_Status	Tumor_Sample_Barcode	Matched_Norm_Sample_Barcode	Match_Norm_Seq_Allele1	Match_Norm_Seq_Allele2	Tumor_Validation_Allele1	Tumor_Validation_Allele2	Match_Norm_Validation_Allele1	Match_Norm_Validation_Allele2	Verification_Status	Validation_Status	Mutation_Status	Sequencing_Phase	Sequence_Source	Validation_Method	Score	BAM_File	Sequencer	t_ref_count	t_alt_count	n_ref_count	n_alt_count	HGVSc	HGVSp	HGVSp_Short	Transcript_ID	RefSeq	Protein_position	Codons	Hotspot	AA_MAF	AFR_MAF	ALLELE_NUM	AMR_MAF	ASN_MAF	Allele	Alt.NoAlt	Amino_acids	Annotation_Missmatch	BIOTYPE	CANONICAL	CCDS	CDS_position	CLIN_SIG	Chrom	Copy_number	DISTANCE	DOMAINS	EAS_MAF	EA_MAF	ENSP	EUR_MAF	EXON	ExAC_AC_AN	ExAC_AC_AN_AFR	ExAC_AC_AN_AMR	ExAC_AC_AN_Adj	ExAC_AC_AN_EAS	ExAC_AC_AN_FIN	ExAC_AC_AN_NFE	ExAC_AC_AN_OTH	ExAC_AC_AN_SAS	ExAC_AF	ExAC_AF_AFR	ExAC_AF_AMR	ExAC_AF_Adj	ExAC_AF_EAS	ExAC_AF_FIN	ExAC_AF_NFE	ExAC_AF_OTH	ExAC_AF_SAS	ExAC_FILTER	Existing_variation	Exon	Exon_Number	FILTER	Feature	Feature_type	GENE_PHENO	GMAF	Gene	HGNC_ID	HGVS_OFFSET	HGVSp_Short.1	HIGH_INF_POS	IMPACT	INTRON	Indel.type	MINIMISED	MOTIF_NAME	MOTIF_POS	MOTIF_SCORE_CHANGE	Mut_aa	Mut_cdna	Mut_nt	PHENO	PICK	PUBMED	PolyPhen	SAS_MAF	SIFT	SOMATIC	STRAND_VEP	SWISSPROT	SYMBOL	SYMBOL_SOURCE	TREMBL	TSL	Transcript_id	UNIPARC	VAF	VARIANT_CLASS	Variant_Type.1	all_effects	cDNA_position	cfDNA	cosmic	dbSNP_RS.1	flanking_bps	gene	mol_count	n_depth	platform	position	splice_effect	t_depth	variant_id	variant_qual
+
+
