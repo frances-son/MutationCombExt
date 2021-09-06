@@ -8,4 +8,4 @@ And you can download example final file via the <a href = "https://github.com/fr
 또한 분석에 사용된 원본 파일들은 재배포 가능여부를 확인할 수 없어 함께 업로드 하지 않았으나, 해당 테스트 분석에 사용된 데이터 및 각종 암 세포 변이 유전자 관련 데이터는 <a href ="https://www.cbioportal.org">CBioPortal</a>에서 받으실 수 있습니다.
 전체 단계를 거친 뒤 추출되는 최종결과 파일은 이 <a href = "https://github.com/frances-son/MutationCombExt/blob/master/results/final_file_example.xlsx">링크</a>에서 다운받아 보실 수 있습니다.
 
-<img width="1371" alt="image" src="https://user-images.githubusercontent.com/20037761/132238701-c90bb1b0-fb81-4940-a4d6-9c5e408df442.png">
+<img width="1371" alt="image2" src="https://user-images.githubusercontent.com/20037761/132241383-54ee6ea0-916e-470f-91c4-49b92be1815c.png">
